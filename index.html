@@ -1,106 +1,133 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-    /* Tambahkan gaya CSS kustom di sini */
-    .nav-tabs {
-      position: fixed;
-      top: 50%;
-      transform: translateY(-50%);
-      z-index: 999; /* Agar berada di atas konten */
-      background-color: #fff; /* Warna latar belakang putih untuk kejelasan */
-    }
-    .card {
-      /* width: 300px; */
-      width: 100%;
-      height: 80vh;
-      display: flex;
-      justify-content: center;
-      justify-items: center;
-      align-self: center;
-      margin: auto;
-      border-radius: 16px;
 
-    }
-    .tab-content {
-      display: flex;
-      justify-content: center;
-      justify-items: center;
-    }
-  </style>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<c>
 
-    <div class="container mt-4" id="container">
-      <div class="row">
-        <!-- Tombol tab -->
-        <div class="col-md-1">
-          <ul class="nav nav-tabs flex-column" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="about-tab" data-toggle="tab"
-                href="#about"><i class="fas fa-user"></i> Tentang Saya</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="resume-tab" data-toggle="tab"
-                href="#resume"><i class="fas fa-file-alt"></i> Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="portfolio-tab" data-toggle="tab"
-                href="#portfolio"><i class="fas fa-briefcase"></i>
-                Portofolio</a>
-            </li>
-          </ul>
-        </div>
+  <div class="container mt-4" id="container">
+    <div class="row">
+      <!-- Tombol tab -->
+      <div class="col-md-1">
+        <ul class="nav nav-tabs flex-column" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about"><i class="fas fa-user"></i>
+              Tentang Saya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume"><i class="fas fa-file-alt"></i>
+              Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio"><i class="fas fa-briefcase"></i>
+              Portofolio</a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- Kartu dengan foto pribadi dan Konten tab -->
-        <div class="col-md-9">
-          <div class="row ustify-content-end">
-            <div class="card col-4">
-              <img src="foto_pribadi.jpg" class="card-img-top"
-                alt="Foto Pribadi">
-              <div class="card-body">
-                <h5 class="card-title">Nama Saya</h5>
-                <p class="card-text">Tambahkan deskripsi singkat tentang diri
-                  Anda di sini.</p>
+      <!-- Kartu dengan foto pribadi dan Konten tab -->
+      <div class="col-md-9">
+        <div class="row ustify-content-end">
+          <div class="card col-4">
+            <img src="assets/foto-diri.JPG" class="card-img-top foto-saya" alt="Foto Pribadi">
+            <div class="card-body">
+              <h5 class="card-title">Prayoga Kusdiana Ikhsani</h5>
+              <p class="card-text">Mahasiswa Teknik Informatika Semester 4</p>
+            </div>
+          </div>
+
+          <div class="tab-content col-5 text-center">
+            <div class="tab-pane fade show active" id="about">
+              <div class="tentang-saya">
+                <h2>Tentang Saya</h2>
+                <p>Saya adalah Mahasiswa dari Politeknik Negeri Jember. Saat ini saya sedang menjalani kuliah
+                  semester 4(empat).
+                  <br>
+                  Saya bertempat tinggal di Nganjuk, Jawa Timur, Indonesia. saya lahir pada bulan agustus pada tahun 2003.
+                  <br>
+                  Hobi saya adalah membaca komik, ngoding di saat senggang, serta menjelajah atau mempelajari sesuatu hal yang saya belum tau pada saat ini.
+
+                  <table class=" table table-bordered" width="100%">
+                    <tbody>
+                      <tr>
+                        <td>UMUR</td>
+                        <td width="1%">:</td>
+                        <td>21</td>
+                      </tr>
+                      <tr>
+                        <td>EMAIL</td>
+                        <td width="1%">:</td>
+                        <td>ananda.aa70@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <td>NO. TELP</td>
+                        <td width="1%">:</td>
+                        <td>
+                          <a href="https://wa.me/+6281357743268" target="_blank">081357743268</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>CITA CITA</td>
+                        <td width="1%">:</td>
+                        <td>YNTKTS</td>
+                      </tr>
+                    </tbody>
+                    <tr>
+                      <td>GITHUB</td>
+                      <td width="1%">:</td>
+                      <td>
+                        <a href="https://github.com/Pk2413/" target="_blank">Pk2413</a>
+                      </td>
+                    </tr>
+                  </table>
               </div>
             </div>
-
-            <div class="tab-content col-5 text-center">
-              <div class="tab-pane fade show active" id="about">
-                <h2>Tentang Saya</h2>
-                <p>Tambahkan deskripsi tentang diri Anda di sini. <br> Ini hanya
-                  contoh konten yang dapat membuat tab-content lebih tinggi.</p>
-              </div>
-              <div class="tab-pane fade" id="resume">
-                <h2>Resume</h2>
-                <p>Tambahkan resume Anda di sini.</p>
-              </div>
-              <div class="tab-pane fade" id="portfolio">
-                <h2>Portofolio</h2>
-                <p>Tampilkan proyek dan pencapaian Anda di sini.</p>
-              </div>
+            <div class="tab-pane fade" id="resume">
+              <h2>Resume</h2>
+              <p>Bahasa yang sudah saya pelajari adalah JAVA, DART, PHP, HTML, JAVASCRIPT</p>
+              
+            </div>
+            <div class="tab-pane fade" id="portfolio">
+              <h2>Perjalanan Saya</h2>
+              <p>sekolah</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Bootstrap JS dan jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS dan jQuery -->
+  <!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var navLinks = document.querySelectorAll('.nav-link');
+      
+      navLinks.forEach(function(navLink) {
+        navLink.addEventListener('click', function(event) {
+          // Menghapus kelas active dari semua nav-link
+          navLinks.forEach(function(link) {
+            link.classList.remove('active');
+          });
+          
+          // Menambahkan kelas active ke nav-link yang diklik
+          event.target.classList.add('active');
+        });
+      });
+    });
+  </script> -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   </body>
+
 </html>
